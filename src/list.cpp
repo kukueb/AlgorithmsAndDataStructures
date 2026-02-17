@@ -1,6 +1,6 @@
 #include <iostream>
 
-namespace lists { // Make this work
+namespace lists { 
 
 struct list {
   long long info;
