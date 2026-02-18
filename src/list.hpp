@@ -15,6 +15,7 @@ list *vst(list *&beg, int k, int z);
 long long sum_list(list *beg);
 int count_list(list *beg);
 bool is_list_sorted(list *beg);
+long long find_min_list(list* beg);
 
 } // namespace lists
 

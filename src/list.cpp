@@ -100,6 +100,7 @@ int count_list(list *beg) {
   list *current = beg;
   while (current->next != NULL) {
     ++i;
+    current = current->next;
     if (current->next == NULL)
       ++i;
   }
@@ -116,6 +117,16 @@ bool is_list_sorted(list *beg) {
     current = current->next;
   }
   return true;
+}
+
+long long find_min_list(list* beg) {
+  list* cur = beg;
+  long long min = cur->info;
+  while (cur != NULL) {
+    if (cur->info < min) min = cur->info ;
+    cur = cur->next;
+  }
+  return min;
 }
 
 } // namespace lists
