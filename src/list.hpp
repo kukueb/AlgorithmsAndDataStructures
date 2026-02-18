@@ -8,6 +8,7 @@ struct list {
   list* next;
   list() = default;
 };
+
 list *make_list();
 void print_list(list *beg);
 list *del(list *&beg, int k);

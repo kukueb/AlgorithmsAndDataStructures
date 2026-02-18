@@ -6,5 +6,5 @@ add_executable(run
   src/main.cpp
   src/list.hpp
   src/list.cpp
-  ${SOURCES}
+  # ${SOURCES}
 )
