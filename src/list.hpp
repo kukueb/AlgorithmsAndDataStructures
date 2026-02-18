@@ -2,7 +2,12 @@
 #define LIST_HPP
 
 namespace lists {
-struct list;
+
+struct list {
+  long long info;
+  list* next;
+  list() = default;
+};
 list *make_list();
 void print_list(list *beg);
 list *del(list *&beg, int k);
