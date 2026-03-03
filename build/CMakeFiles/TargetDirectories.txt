@@ -1,0 +1,3 @@
+/home/kukueb/programming/ADS_two_sided_lists/build/CMakeFiles/run.dir
+/home/kukueb/programming/ADS_two_sided_lists/build/CMakeFiles/edit_cache.dir
+/home/kukueb/programming/ADS_two_sided_lists/build/CMakeFiles/rebuild_cache.dir

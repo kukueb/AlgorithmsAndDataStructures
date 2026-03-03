@@ -1,0 +1,26 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kukueb/programming/ADS_two_sided_lists/src/list/list.cpp" "CMakeFiles/run.dir/src/list/list.cpp.o" "gcc" "CMakeFiles/run.dir/src/list/list.cpp.o.d"
+  "/home/kukueb/programming/ADS_two_sided_lists/src/main.cpp" "CMakeFiles/run.dir/src/main.cpp.o" "gcc" "CMakeFiles/run.dir/src/main.cpp.o.d"
+  "/home/kukueb/programming/ADS_two_sided_lists/src/utils/utils.cpp" "CMakeFiles/run.dir/src/utils/utils.cpp.o" "gcc" "CMakeFiles/run.dir/src/utils/utils.cpp.o.d"
+  "" "run" "gcc" "CMakeFiles/run.dir/link.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
