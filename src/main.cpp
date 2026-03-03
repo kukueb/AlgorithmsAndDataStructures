@@ -14,9 +14,8 @@ int main() {
     // remove_not_ideal(&beg);
 
     list *new_beg;
-    new_beg = make_without_nonideal(new_beg);
+    new_beg = make_without_nonideal(beg);
     print(new_beg);
-    // print(beg);
   }
 
   return 0;
